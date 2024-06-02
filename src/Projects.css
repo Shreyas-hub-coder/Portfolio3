@@ -1,0 +1,49 @@
+/* Projects.css */
+.projects-container {
+    padding: 2rem;
+    background-color: #000000;
+    text-align: center;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .project-item {
+    background-color: #1e1b36;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .project-item h2 {
+    color: #ffeded;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-item p {
+    font-size: 1rem;
+    color: #fff9f9;
+    margin-bottom: 1rem;
+  }
+  
+  .project-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-item a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .project-item {
+      width: 80%;
+    }
+  }
+  
