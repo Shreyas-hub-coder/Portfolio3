@@ -7,7 +7,7 @@ function Projects() {
     {
       title: 'Portfolio',
       description: 'Created my portfolio website using React.',
-      link: 'https://github.com/Shreyas-hub-coder/QuizApp'
+      link: 'https://github.com/Shreyas-hub-coder/Portfolio3'
     },
     {
       title: 'Music Player',

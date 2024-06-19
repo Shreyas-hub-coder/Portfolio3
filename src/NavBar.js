@@ -12,7 +12,7 @@ function NavBar() {
                 <li className="nav-item"><Link to="/education">Education</Link></li>
                 <li className="nav-item"><Link to="/experience">Experience</Link></li>
                 <li className="nav-item"><Link to="/projects">Projects</Link></li>
-                <li className="nav-item"><Link to="/resume">Resume</Link></li>
+  
             </ul>
         </nav>
     );

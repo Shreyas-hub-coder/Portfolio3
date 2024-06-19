@@ -5,11 +5,10 @@ import NavBar from './NavBar';
 import Typing from './Typing';
 import About from './About';
 import Skills from './Skills';
-import Education from './Education'; 
-import Projects from './Projects'; 
+import Education from './Education';
+import Projects from './Projects';
 import ProgressBar from './components/ProgressBar/ProgressBar';
-
-
+import Experience from './Experience'; // Ensure Experience is imported
 
 function Home() {
   return (
@@ -25,16 +24,9 @@ function Home() {
         deletingSpeed={50}
         duration={1000}
       />
-      
     </div>
   );
 }
-
-function Experience() {
-  return <div>TO BE ADDED</div>;
-}
-
-
 
 function Resume() {
   return <div>TO BE ADDED</div>;
@@ -44,15 +36,15 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar /> {}
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Projects />} /> 
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/projects" element={<Projects />} />
+       
         </Routes>
       </div>
     </Router>
